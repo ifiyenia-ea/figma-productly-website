@@ -1,0 +1,338 @@
+
+/* STILL TO DO:
+- Check font colours
+- position header + footer
+- positioin "check cards" + name classes etc
+. set website width?
+ */
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-logo {
+    width: 185px;
+    height: 32px;
+}
+
+.header-logo, .menu {
+    display: inline-block;
+}
+
+ul {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header-menu {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+/* a:visited {
+    color: #b36b00;
+} */
+
+a {
+    text-decoration: none;
+    color: #2F281E;
+}
+
+a:hover {
+    color: #FF9900;
+}
+
+.btn-header-sign-in {
+    background-color: white;
+    border: 1px solid #BCD0E5;
+    width: 102px;
+    height: 46px;
+    color: #173A56;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.btn-header-sign-up {
+    width: 110px;
+    height: 46px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-header-sign-up a {
+    color: white;
+}
+
+.btn-header-sign-up a:hover {
+    color: gray;
+}
+
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.text__section-1 {
+    width: 486px;
+
+}
+
+.btn-main {
+    width: 175px;
+    height: 53px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 25px;
+}
+
+.btn-main a {
+    color: white;
+}
+
+.btn-main a:hover {
+    color: gray;
+}
+
+.triangle-icon {
+    margin-right: 10px;
+}
+
+.btn-link {
+    color: #FF9900;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+    
+}
+
+.title__section-2 {
+    display: flex;
+    justify-content: center;
+    /* min-width: 539px; */
+
+}
+
+.cards__section-2 {
+    display: flex;
+    justify-content: center;
+    margin: 44px;
+    /* I would justify these with space between, around or evenly
+    but would first need to decide on a width for the page?*/
+}
+
+.card {
+    width: 240px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.btn__section-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn__section-2 a {
+    color: white;
+}
+
+.btn__section-2 a:hover {
+    color: gray;
+}
+
+.btn-main-signup a {
+    text-transform: uppercase;
+    color: white;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.text__section-3 {
+    width: 486px;
+    margin-right: 80px;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.text__section-4 {
+    width: 486px;
+    margin-left: 80px;
+}
+
+/* .text__section-4 {
+    position: relative;
+} */
+
+.cards__text {
+    position: relative;
+    bottom: 45px;
+    left: 50px;
+    
+} 
+
+.check {
+    position: relative;
+    right: 10px;
+}
+
+.section-5 {
+    display: flex;
+    justify-content: center;
+}
+
+.text__section-5 {
+    width: 486px;
+    margin-right: 80px;
+}
+
+hr {
+    width: 80%;
+    color:  #BCD0E5;
+    
+}
+
+footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 72px;
+    margin-top: 150px;
+}
+
+
+.footer-logo {
+    width: 185px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+}
+
+.footer-menu {
+    position: absolute;
+    top: 40px;
+    left: 300px;
+
+    /* display: flex;
+    flex-direction: columns; */
+}
+
+.footer-menu-2 {
+    position: absolute;
+    top: 40px;
+    left: 600px;
+
+}
+
+.footer-li {
+    display: list-item;
+}
+
+input {
+    border: 1px solid #BCD0E5;
+    width: 325px;
+    height: 48px;
+    position: absolute;
+    left: 850px;
+    top: 80px;
+}
+
+.btn-footer {
+    position: absolute;
+    left: 850px;
+    top: 150px;
+    width: 131px;
+    height: 39px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-footer a {
+    color: white;
+}
+
+.btn-footer a:hover {
+    color: gray;
+}
+
+section {
+    margin-top: 100px;
+}
+
+
+button {
+    background-color: #FF9900;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.top {
+    margin-bottom: -25px;
+}
+/*Change this*/
+
+h1 {
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
